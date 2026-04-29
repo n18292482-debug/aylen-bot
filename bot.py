@@ -1,7 +1,7 @@
 import telebot
 from groq import Groq
 
-BOT_TOKEN = '8725641438:AAHEpEWs25KlYFFMKqSpafetTiif2PByjv8'
+BOT_TOKEN = '8725641438:AAEp0pTCfLHKQ3WtGvT4Xc9h22anLuo6yTY'
 GROQ_KEY = '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'
 
 bot = telebot.TeleBot(BOT_TOKEN)
