@@ -37,4 +37,4 @@ def handle(message):
     except Exception as e:
         bot.send_message(uid, "Прости, что-то пошло не так 🌸")
 
-bot.infinity_polling()
+bot.infinity_polling(timeout=60, long_polling_timeout=60)
